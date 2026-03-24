@@ -35,24 +35,28 @@ A full-stack web application that detects whether a job posting is real or fake 
 ---
 
 ## Project Structure
+
+```
 Fake Job RAG Predictor
-├── client/ # React frontend
-│ ├── public/
-│ ├── src/
-│ │ ├── App.js
-│ │ ├── index.js
-│ │ ├── index.css
-│ │ └── reportWebVitals.js
-│ └── package.json
 │
-├── server.js # Node backend API
-├── package.json # Backend dependencies
+├── client/                # React frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   ├── index.css
+│   │   └── reportWebVitals.js
+│   └── package.json
 │
-├── app.py # Flask ML API
-├── model.pkl # Trained ML model
-├── vectorizer.pkl # TF-IDF vectorizer
+├── server.js              # Node backend API
+├── package.json           # Backend dependencies
 │
-└── requirements.txt # Python dependencies
+├── app.py                 # Flask ML API
+├── model.pkl              # Trained ML model
+├── vectorizer.pkl         # TF-IDF vectorizer
+│
+└── requirements.txt       # Python dependencies
+```
 
 ---
 
