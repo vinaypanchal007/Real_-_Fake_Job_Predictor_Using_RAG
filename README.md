@@ -59,7 +59,7 @@ Fake Job RAG Predictor
 ├── server.js              # Node backend API
 ├── package.json           # Backend dependencies
 ├── package-lock.json
-├── app.py                 # Flask ML API
+├── ml_api.py                 # Flask ML API
 ├── fake_job_model.joblib  # Model
 ├── rag_predict.py
 ├── Train.py
