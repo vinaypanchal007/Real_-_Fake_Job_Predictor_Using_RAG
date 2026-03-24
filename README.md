@@ -41,20 +41,28 @@ Fake Job RAG Predictor
 │
 ├── client/                # React frontend
 │   ├── public/
+|   |   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── manifest.json
+│   │   └── robots.txt
 │   ├── src/
 │   │   ├── App.js
+│   │   ├── App.css
 │   │   ├── index.js
 │   │   ├── index.css
+│   │   ├── setupTests.js
 │   │   └── reportWebVitals.js
 │   └── package.json
+│   └── package-lock.json
+│   └── readme.md
 │
 ├── server.js              # Node backend API
 ├── package.json           # Backend dependencies
-│
+├── package-lock.json
 ├── app.py                 # Flask ML API
-├── model.pkl              # Trained ML model
-├── vectorizer.pkl         # TF-IDF vectorizer
-│
+├── fake_job_model.joblib  # Model
+├── rag_predict.py
+├── Train.py
 └── requirements.txt       # Python dependencies
 ```
 
@@ -68,14 +76,5 @@ Fake Job RAG Predictor
 - SMOTE for class imbalance handling
 - Logistic Regression classifier
 - Threshold tuning for optimal F1 score
-
----
-
-## Future Improvements
-
-- Integration with Gemini API for RAG-based explanations
-- Dashboard for analytics and insights
-- Resume-job matching system
-- Real-time job scraping and detection
 
 ---
